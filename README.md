@@ -15,8 +15,10 @@ https://user-images.githubusercontent.com/95775417/198308654-3d93d8c7-1bdb-4b3f-
 * Open your terminal into the application saved;
 * Run the code "npm install" or "yarn" to install the dependencies;
 * Access https://www.themoviedb.org/ and click "join TMDB" to create an account;
-* Go to "settings" to copy your API Key and paste it into the dotEnv file, on the variables:
+* Go to "settings" to copy your API Key and paste it into a new .env file, on the variables:
   * VITE_THE_MOVIE_DB_API_KEY=
-  * VITE_THE_MOVIE_DB_IMAGES_URL=
+  * VITE_THE_MOVIE_DB_IMAGES_URL="https://image.tmdb.org/t/p/w500"
+  * VITE_THE_MOVIE_DB_BASE_URL="https://api.themoviedb.org/3"
+
 
 * Run the code "npm run dev" or "yarn run dev" to run the application;
